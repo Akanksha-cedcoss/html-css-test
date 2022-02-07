@@ -1,0 +1,51 @@
+.container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  overflow: hidden;
+  padding-top: 0;
+}
+
+.content {
+  background-color: lightsalmon;
+  text-align: right;
+  height: 68%;
+  font-size: 30px;
+}
+
+.button {
+  background-color: grey;
+  color: white;
+  display: grid;
+  font-weight: bold;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.yellow{
+    background-color: rgb(241, 161, 69);
+}
+.btn {
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px black solid;
+}
+
+#input {
+  line-height: 60px;
+  margin: 0;
+  border: 1px solid black;
+  
+}
+.input {
+  margin: 0;
+  font-size: 30px;
+  text-align: right;
+  background-color: lightgrey;
+}
+.target{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-color: gray;
+    border-top: none;
+}
